@@ -20,6 +20,13 @@ int main() {
     std::cout << "Total: " << total << std::endl; // print the total of the prices array
 
     std::cout << sizeof(cars) << std::endl; // print the size of the array in bytes
+    
+    std::string foods[3]; // declare an array of strings with size 3
+    for (int i = 0; i < sizeof(foods) / sizeof(foods[0]); i++) {
+        std::cout << "Enter food item " << i + 1 << ": ";
+        std::getline(std::cin >> std::ws, foods[i]); // read user input and store it in the array
+    }
+
     return 0;
 }
 
