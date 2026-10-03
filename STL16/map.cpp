@@ -18,7 +18,7 @@ int main()
 		itr1=m.find(2);
 	        
 	cout<<"Value Found is"<<endl;
-	cout<<itr1->first<<" "<<itr1->second<<endl;
+	cout<<(*itr).first<<" "<<itr1->second<<endl;
 	    
 }
     
