@@ -1,0 +1,72 @@
+void display() //return type void --> cannot be stored in variable
+{
+    cout << "Hello" << endl;
+}
+
+float add(float x , float y){ // return type float --> can be stored in variable
+
+    float z = x+y;
+    return z;
+}
+
+int max(int a, int b, int c){ //return type int
+    if (a>b && a>c)
+        return a;
+    else if (b > c)
+        return b;
+    else return c;
+}
+
+// FUNCTION OVERLOADING
+// Same name but differ in parameters or return type
+
+int max (int ,int)
+float max (float, float)
+int max( int, int ,int)
+float max(int ,int)
+
+//FUNCTION TEMPLATE
+// Any type of data can be stored
+template<class T, class R>
+
+template<class T>
+T Max(T a,T b) // void Max(T a, R b)
+{
+    if(a>b)
+        return a;
+    else
+        return b;
+}
+
+float c = Max(); 
+int c = Max();
+
+//DEFAULT ARG - If nothing passed then default is used
+int sum (int a, int b, int c = 5){
+    return a+b+c;
+}
+
+//PARAMETER PASSING
+1.Pass by value
+2.Pass by address
+3.Pass by reference
+
+::x --> for accessing global variable
+
+// STATIC VAR
+// value gets reseted whenever called inside function
+
+//RECURSIVE FUNCTION -- finction that calls itself
+#include<iostream>
+using namespace std;
+    
+void fun(int n)
+{
+	if(n>0)
+	{
+	    cout<<n<<endl;
+		fun(n-1);
+	}
+}
+
+    

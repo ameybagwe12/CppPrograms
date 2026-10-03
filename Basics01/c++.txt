@@ -1,0 +1,38 @@
+Data types -
+
+1. Primitive
+a) Integral - int , char, string
+b) Bool - true , false (bool)
+c) Floating - float , double
+
+2. User Defined
+a) enum
+b) structure
+c) union
+d) class
+
+3. Derived 
+a) Array
+b) Pointer
+c) Reference
+
+Operators and Expressions - 
+
+Arthematic -> +, -, *, /, %
+Relational -> <, <=, >, >=, ==
+Logical -> &&, ||, !
+Bitwise -> &, |, ~, ^, >>, <<
+Increment -> ++, --
+
+Compound Assign Operators - 
+
++=, -=, *=, /=, %=
+&=, |=, >>=, <<=
+
+Increment and Decrement Op - 
+
+pre inc - ++x;
+post inc - x++;
+
+pre dec - --x;
+post dec - x--;

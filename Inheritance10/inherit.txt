@@ -1,0 +1,13 @@
+class class_name{
+
+};
+
+class class2: public class_name{
+
+};
+
+// Public memeber can be accessed 
+// through object but not private and protected
+
+// Public and protected can be accessed 
+// in derived class but not protected

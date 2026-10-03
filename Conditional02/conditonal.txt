@@ -1,0 +1,66 @@
+// Relation Operators
+<, >, <=, >=, ==, !=
+
+// Logical Operators
+&& - AND 
+|| - OR 
+! - NOT
+
+if(condition) {
+
+}
+else {
+
+}
+
+// Nested If else
+if(condition) {
+    if(condition) {
+    
+    }
+    else {
+
+    }
+}
+else {
+    if(condition) {
+    
+    }
+}
+
+// Else if Ladder 
+if(condition) {
+
+}
+else if (condition) {
+
+}
+else if (condition) {
+
+}
+else if (condition) {
+
+}
+else {
+
+}
+
+// Switch Case
+
+switch (expr) 
+{
+    case 1: statement;
+            break;  
+
+    case 2: statement;
+            break;  
+
+    case 3: statement;
+            break;  
+
+    case 4: statement;
+            break;  
+    
+    default: statement;
+
+}

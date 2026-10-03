@@ -1,0 +1,16 @@
+1. data variable - int x = 10;
+2. address variable - 
+int *p , p = &x , cout << *p;
+int *p = new int[20];
+
+declaration, initialization, dereferencing
+
+stack -> int A[5] = {1,2,3,4,5}
+
+heap -> int *p;
+        p = new int[5];
+
+        delete []p;
+        p = nullptr;
+
+        return 0;

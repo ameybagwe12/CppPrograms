@@ -1,0 +1,25 @@
+// STRING DECLARATION
+
+char S[] = {'H', 'E', 'L', 'L', 'O', '\0'};
+char s[] = "Hello";
+string str = "Hello";
+
+cin.get(s, 20); // Will include spaces
+//cin >> s; -> Will not take words after space
+
+cin.ignore(); // Ignores the char after reading first string
+cin.getline(s, 100); or getline(cin, s);
+
+// USING STRING FUNCTIONS
+
+string.h or cstring header file
+
+strlen(var_name) // length of string
+strcat(var1, var2) // Concatination
+strncpy(var1, var2, size) // Copying one string to another
+strstr(s,s4) // substring s4 in s
+strcmp(s,s2) // Compare -> s>s2 1, s<s2 -1, s=s2 0
+
+// Tokeniser
+strtol(s1, NULL,10); // Convert string num to int  -> base is 10
+strtof(s2, NULL); // Convert string num to float

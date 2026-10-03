@@ -1,0 +1,32 @@
+// Loops / Repeating Statements / Iterative Statements
+
+1. while
+2. do while
+3. for
+4. for each
+
+
+// for(initialization; condition; updation) {
+    Statements
+}
+
+// for(auto x :array_name) { --> for each (if auto &x) then the value will also be updated inside the array
+    Statements
+}
+
+for (auto &x : A)
+    {
+        for (auto &y : x)
+        {
+            cout << y << " ";
+        }
+        cout << endl;
+    }
+
+// while(condition){
+    Statements
+}
+
+// do {
+
+}while(condition);

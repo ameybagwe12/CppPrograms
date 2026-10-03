@@ -1,0 +1,20 @@
+//Types of Errors - 
+1. Syntax Errors (Compile Time)
+2. Logical Errors (Debugging)
+
+// Exception Handling
+3. Runtime Errors -> 1. Bad input 2. Problem with resources
+
+try {
+    throw //
+}
+catch (int e) { // there can be multiple catch for each error in try block
+
+}
+catch (float e) { 
+
+}
+catch (...) { // Can handle all types of Exception -> It must be last block of catch
+
+}
+final statement
