@@ -11,9 +11,9 @@ class Student
     int chemMarks;
     
     public:
-    Student(int r,string n,int m,int p,int c)
+    Student(int roll,string n,int m,int p,int c)
     {
-        roll=r;
+        this->roll=roll;
         name=n;
         mathMarks=m;
         phyMarks=p;
