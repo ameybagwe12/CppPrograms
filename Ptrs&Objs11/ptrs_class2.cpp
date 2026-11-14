@@ -23,4 +23,5 @@ int main()
     Cuboid c;
     Rectangle *p = &c;
     p->area();
+    c.volume();
 }

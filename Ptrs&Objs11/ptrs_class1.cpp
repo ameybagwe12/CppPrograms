@@ -21,7 +21,7 @@ class Derived: public Base
 int main()
 {
     // Vice versa is not possible (cannot create derived ptr pointing to Base)
-    // Base *b = new Derived ()
+    // Base *b1 = new Derived ();
     Derived d;
     Base *b = &d;
     b->func1();
