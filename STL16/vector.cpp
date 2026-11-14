@@ -9,7 +9,8 @@ int main()
 	v.push_back(30);
 	// vector<int>::iterator itr;
 	cout<<"Using Iterator"<<endl;
-	    
+	  
+	// auto keyword is used to automatically deduce the type of the variable from its initializer
 	for(auto itr=v.begin();itr!=v.end();itr++)
 		cout<<++*itr<<endl;
 	    cout<<"Using For Each Loop"<<endl;
